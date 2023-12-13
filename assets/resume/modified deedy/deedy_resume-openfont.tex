@@ -1,0 +1,286 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (07/04/2020)
+% 
+% Author
+% Apurv Mishra(https://apurvmishra.xyz)
+% Repository
+% https://github.com/apurvmishra99/Modified-Deedy-Resume
+% Original author of Deedy Resume:
+% Debarghya Das (http://debarghyadas.com)
+% His repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+%
+
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Shyam}{Sundar}{ \urlstyle{same}\href{https://shyam-sundar-7.github.io/}{\bf Portfolio} |
+\href{mailto:mailshyamsundar.2022@gmail.com}{\bf mailshyamsundar.2022@gmail.com} | \bf +91-9080765574 | \urlstyle{same}\href{https://github.com/Shyam-Sundar-7}{\bf Github} | 
+\urlstyle{same}\href{https://www.linkedin.com/in/shyamsundar007/}{\bf Linkedin}|
+\urlstyle{same}\href{https://twitter.com/SHYAMSU34943897}{\bf Twitter}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{M.Tech \\Modelling and Simulation }
+\descript{The Defence Institute of Advanced Technology}
+\location{May \textbf{2023 } | Pune,IN}
+\sectionsep
+\subsection{B.Tech \\Chemical Engineering}
+\descript{The National Institute of Technology}
+\location{May \textbf{2021 } | Tiruchirappalli,IN}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Experience}
+% \runsubsection{Zesty LLC}
+% \descript{| Co-founder \& Software Engineer }
+% \location{Apr \textbf{2019 } – Present | Riverside, CA}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item As a co-founder of the company, worked on shaping the product idea, technologies used and business plans.
+% \item Developed RESTful APIs in Falcon and Flask for the MVP and later lead the migration to FastAPI leading to 5-10x faster server response times.
+% \item Lead development of the user facing website for the MVP in ReactJS.
+% \item The website and the company has now been launched and funded , and the website been handling more than 1000 sessions/week without a problem.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{University of Edinburgh}
+% \descript{| Teaching Support }
+% \location{Sep \textbf{2019 } – Present | Edinburgh, UK}
+% \begin{tightemize}
+% \item Teach Introduction to Haskell, Intro to Linux, Cognitive Science, Computation and Logic and general programming concepts to a cohort of over 400 students.
+% \item Marked and assisted in conduction of the exam. 
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{WorldQuant LLC}
+% \descript{| Research Consultant}
+% \location{Jun \textbf{2019 } - Oct \textbf{2019 } | Remote}
+% \begin{tightemize}
+% \item Selected to be a part of the research consultant programme after breaking into the top 1 percentile of participants of the WorldQuant challenge.
+% \item Created algorithm-based models using Python and propriety libraries that seek to predict movements of global financial markets.
+% \end{tightemize}
+% \sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{PeopleCare Insurance Prediction}
+\descript{| Python | Jupyter notebook | Azure Cloud | Flask | Docker |}
+\location{Oct \textbf{2023 }}
+\item Implemented a predictive model for PeopleCare to determine customer interest in Vehicle Insurance services:\textbf{[\href{https://github.com/Shyam-Sundar-7/PeopleCare}{Code}]}
+\begin{tightemize}
+\item Achieved an impressive \textbf{80\%} prediction accuracy  utilizing \textbf{LightGBM 
+        algorithm}.
+\item Orchestrated end-to-end model deployment with  \textbf{Flask} and \textbf{Docker}, facilitating model delivery on the  \textbdf{Azure Container App} platform, optimizing operations and enhancing scalability.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Hate Speech Prediction}
+\descript{| Python | Pytorch lightning | Flask | Docker |}
+\location{Oct \textbf{2023 }}
+\item Developed a hate speech detection project by fine-tuning a BERT model. \textbf{[\href{https://github.com/Shyam-Sundar-7/Hate-Speech-recognition}{Code}]}
+\begin{tightemize}
+        \item Achieved an an exceptional \textbf{91.95\%} accuracy through rigorous training and evaluation with the \textbf{OxAISH-AL-LLM/wiki\_toxic} dataset.
+        \item Implemented model deployment via \textbf{Flask} and \textbf{Docker} for scalability, ensuring a safer online environment.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Machine Failure Prediction}
+\descript{| Azure Machine Learning |}
+\location{Sep \textbf{2023 }}
+\item Executed the deployment of a machine learning endpoint in Azure Container Instance. \textbf{[\href{https://github.com/Shyam-Sundar-7/Machine-Failure-Prediction}{Code}]}
+
+\begin{tightemize}
+        \item Conducted an in-depth analysis of a dataset containing \textbf{10,000} data points and \textbf{14} distinct machine features to identify failures.
+        \item Achieved an exceptional \textbf{{97\%}} recall rate in predicting machine failures through the strategic use of logistic regression and addressing class imbalance with \textbf{Azure Designer}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Data Driven Model for Anomaly Detection and Path Prediction}
+\descript{| Python | Deep Learning |}
+\location{Jul \textbf{2023} - Apr \textbf{2023}}
+\item Investigated and enhanced the Automatic Identification System of cargo vessels for anomaly detection and path prediction.
+\begin{tightemize}
+        \item Formulated a \textbf{statistical method} to analyze cargo ship vessels by considering time difference and speed over the ground for robust anomaly detection.
+        \item Engineered a path prediction algorithm using a \textbf{sequence-to-sequence model with attention mechanism}, delivering a substantial \textbf{90\%} reduction in error compared to Deep LSTM and GRU models.
+\end{tightemize}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+
+% \textbf{2019 } DigiEduHack \\
+% \textbf{2019 } HackKosice \\
+% \textbf{2019 } Cyber Defence Exercise\\
+% \textbf{2018 } Local Hack Day\\
+% \textbf{2018 } Oxford Hack \\
+% \textbf{2018 } Glasgow Hack \\
+% \textbf{2017 } DPS Noida
+
+% \section{Travel \& Conference Grants}
+
+% \textbf{\$250 } ELC, Edinburgh \\
+% \textbf{\$250 } PenApps, Philadelphia \\
+% \textbf{\textsterling 150 } Algothon, London \\
+% \textbf{\texteuro 150 } CEE Hacks, Prague\\
+% \textbf{\texteuro 150 } DENEFF EE Hack, Berlin\\
+% \textbf{\texteuro 120 } HackUPC, Barcelona\\
+% \textbf{\textsterling 75  } Hack Cambridge \\
+% \textbf{\texteuro 75    } Junction, Helsinki
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Skills}
+\subsection{Programming}
+% \location{\textbf{Over 5000 lines:}}
+Python \textbullet{} C++ \textbullet{} Matlab \textbullet{} \LaTeX  \\
+\textbullet{} Jupyter Notebook  
+\subsection{Frameworks:}
+Pytorch \textbullet{} Tensorflow \textbullet{} Flask\\
+\textbullet{} Pytorch Lightning  \textbullet{} Docker
+\subsection{Data Visualization}
+Tableau \textbullet{} Power Bi 
+\subsection{Database}
+MySQL
+\subsection{Cloud Services}
+Azure
+\sectionsep
+
+\section{Visualization Projects}
+\textbullet{} \href{https://github.com/Shyam-Sundar-7/hr_tableau_dashboard}{Zomboville attrition report} \\
+\textbullet{}\href{https://github.com/Shyam-Sundar-7/credit-card-analysis---tableau}{Credit Card Analysis}
+\sectionsep
+
+\section{Coursework}
+\textbullet{}Advanced Numerical Methods \\
+\textbullet{}Mathematical Modelling \\
+\textbullet{}Mathematical Methods \\
+\textbullet{}Machine Learning \\\textbullet{}
+Deep Learning \\\textbullet{}
+Computer Graphics \\\textbullet{}
+Data Science: Tools and Techniques \\\textbullet{}
+Big Data Analysis and Algorithms\\\textbullet{}
+Linear Algebra 
+\sectionsep
+
+\section{Certifications}
+\textbullet{} \href{https://www.datacamp.com/certificate/DAA0017955149813}{Certified Associate Data Analyst}\\
+\textbullet{}\href{https://api.growthschool.io/certificate/818d42d3-2ad2-4fc3-b36c-73b74b176cbd}{Management Consulting Mentorship}\\
+\textbullet{}\href{https://www.coursera.org/account/accomplishments/verify/H9MCR2DN3S3W}{Improving Deep Neural Networks:\\ Hyperparameter Tuning{,} \\Regularization and Optimization}\\
+\textbullet{}\href{https://www.coursera.org/account/accomplishments/verify/H9MCR2DN3S3W}{ML for Business professionals using \\No-Code AI tools}\\
+\textbullet{}\href{https://www.hackerrank.com/certificates/54c9338aea7a}{Python [Basic] -Hackerrank}\\
+\textbullet{}\href{https://www.hackerrank.com/certificates/4eb61b3b4e85}{SQL [Intermediate] - Hackerrank}
+\sectionsep
+
+\section{Publications}
+\href{https://link.springer.com/chapter/10.1007/978-981-99-1414-2_8}{
+\textbullet{}\textbf{Suspicious Event Detection of Cargo\\ Vessels
+Based on AIS Data} at \\ \textbf{ICDMAI,2023}}
+\sectionsep
+
+\section{Activities}
+\textbullet{}\textbf{\textit{Marketing team}, NIT Trichy.}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{minipage}%
+\end{document}  
+\documentclass[]{article}
