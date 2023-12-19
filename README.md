@@ -1,8 +1,8 @@
-# Data Scientist Resume - <a href="assets\pdf\shyam_sundar_data_scientist.pdf" target="_blank">PDF</a>
 
+<!-- 
 # Data Analyst Resume - <a href="assets\pdf\shyam_sundar_data_analyst.pdf" target="_blank"> PDF</a>  
 
-# ML Egineer Resume - <a href="assets\pdf\shyam_sundar_machine_learning_engineer.pdf" target="_blank"> PDF</a>  
+# ML Engineer Resume - <a href="assets\pdf\shyam_sundar_machine_learning_engineer.pdf" target="_blank"> PDF</a>   -->
 
 
 <p>
@@ -119,3 +119,4 @@ Implemented a federated learning algorithm as a security and privacy-preserving 
   - The National Institute of Technology, Tiruchirappalli
   - Graduated in May 2021
 
+# Data Scientist Resume - <a href="assets\pdf\shyam_sundar_data_scientist.pdf" target="_blank">PDF</a>
