@@ -105,10 +105,19 @@ Implemented a federated learning algorithm as a security and privacy-preserving 
 
 
 #### Certifications: 
-- [Certified Associate Data Analyst (Datacamp) 2023](https://www.datacamp.com/certificate/DAA0017955149813)
+<!-- - [Certified Associate Data Analyst (Datacamp) 2023](https://www.datacamp.com/certificate/DAA0017955149813)
 - [Management Consulting Mentorship (Growth school) 2023](https://api.growthschool.io/certificate/818d42d3-2ad2-4fc3-b36c-73b74b176cbd)
 - [ML for Business professionals using No-Code AI tools (Udemy) 2023](https://www.udemy.com/certificate/UC-19ca409f-206f-4a59-8ed3-78e401265faa/)
+- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Coursera) 2020](https://www.coursera.org/account/accomplishments/verify/H9MCR2DN3S3W) -->
+
+- [Certified Associate Data Analyst (Datacamp) 2023](https://www.datacamp.com/certificate/DAA0017955149813)
+- [Management Consulting Mentorship (Growth school) 2023](https://api.growthschool.io/certificate/818d42d3-2ad2-4fc3-b36c-73b74b176cbd)
 - [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Coursera) 2020](https://www.coursera.org/account/accomplishments/verify/H9MCR2DN3S3W)
+- [ML for Business professionals using No-Code AI tools (Coursera) 2020](https://www.coursera.org/account/accomplishments/verify/H9MCR2DN3S3W)
+- [Python [Basic] - Hackerank](https://www.hackerrank.com/certificates/54c9338aea7a)
+- [SQL [Advanced] - Hackerank](https://www.hackerrank.com/certificates/967bd11e74ce)
+- [Software Engineer Intern - Hackerank](https://www.hackerrank.com/certificates/48ec9d20483d)
+
 
 ## Education
 - **M.Tech, Modelling and Simulation**
@@ -119,4 +128,4 @@ Implemented a federated learning algorithm as a security and privacy-preserving 
   - The National Institute of Technology, Tiruchirappalli
   - Graduated in May 2021
 
-# Data Scientist Resume - <a href="assets\pdf\shyam_sundar_data_scientist.pdf" target="_blank">PDF</a>
+# Resume - <a href="assets\pdf\shyam_sundar_machine_learning_engineer.pdf" target="_blank">PDF</a>
