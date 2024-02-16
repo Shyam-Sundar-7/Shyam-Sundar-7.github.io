@@ -128,4 +128,4 @@ Implemented a federated learning algorithm as a security and privacy-preserving 
   - The National Institute of Technology, Tiruchirappalli
   - Graduated in May 2021
 
-# Resume - <a href="assets\pdf\shyam_sundar_machine_learning_engineer.pdf" target="_blank">PDF</a>
+# Resume - <a href="assets\pdf\Shyam Sundar Single Page Resume.pdf" target="_blank">PDF</a>
