@@ -16,7 +16,7 @@ redirect_from:
 
 👨‍💼 Work experience
 ======
-* ***USEReady*** 2024: ***Machine Learning Intern***
+* ***USEReady*** 2024: ***Machine Learning Engineer***
         
 
      - **Implemented a custom RAG chatbot** with *multi-query generation, keyword extraction* using **RAPTOR** chunking, integrating with **Azure**, **AWS**, and **local storage**, and an interactive **Streamlit** interface featuring **user authentication** and session-based history deletion for enhanced privacy. 
